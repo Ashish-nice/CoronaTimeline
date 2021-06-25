@@ -1,0 +1,46 @@
+#home{
+    background-image: url(Coronavirus-1.jpg);
+    padding-bottom: 20px;
+    font-size: larger;
+}
+
+#navbar{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar a{
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+#info{
+    font-size: large;
+    padding: 50px;
+    background: linear-gradient(to bottom, #16222a, #4e4376);
+    color: white;
+    text-align: center;
+}
+#more_info{
+    font-size: large;
+    padding: 50px;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+#EvenMoreInfo{
+    font-size: large;
+    padding: 50px;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
