@@ -1,5 +1,5 @@
 #home{
-    background-image: url(Coronavirus-1.jpg);
+    background-image: url(../assets/Coronavirus-1.jpg);
     padding-bottom: 20px;
     font-size: larger;
 }
@@ -12,8 +12,13 @@
 
 #navbar a{
     margin: 30px;
+    padding-bottom:10px ;
     text-decoration: none;
     color: white;
+}
+
+#navbar a:hover{
+    border-bottom: 2px solid white;
 }
 
 #home h1{
