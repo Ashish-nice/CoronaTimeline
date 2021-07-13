@@ -10,14 +10,45 @@ h1{
     text-align: center;
 }
 
+#vl{
+    position: absolute;
+    height: 1500px;
+    border-left: 4px solid white;
+    margin-left: 50vw;
+}
+
 #timeline li{
     list-style: none;
 }
 
 #timeline li div{
-    width: 40%;
-    padding: 20px;
+    position: relative;
+    width: 25vw;
+    min-width: 200px;
+    max-width: 250px;
+    padding: 10px;
+    margin: 50px;
     background-color:lightcoral ;
     word-spacing: 110%;
     line-height: 150%;
+}
+
+#timeline li:nth-child(odd) div{
+    visibility: hidden;
+    left: -10vw;
+}
+
+#timeline li:nth-child(even) div{
+    visibility: hidden;
+    left: 60vw;
+}
+
+#timeline li:nth-child(even).view div{
+    visibility: visible;
+    transform: translate(-20vw, 0);
+}
+
+#timeline li:nth-child(odd).view div{
+    visibility: visible;
+    transform: translate(7vw, 0);
 }
