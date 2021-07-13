@@ -6,13 +6,15 @@ html{
 }
 
 h1{
+    padding-top: 40vh;
+    padding-bottom: 40vh;
     font-size: 75px;
     text-align: center;
 }
 
 #vl{
     position: absolute;
-    height: 1500px;
+    height: 1650px;
     border-left: 4px solid white;
     margin-left: 50vw;
 }
@@ -32,26 +34,31 @@ h1{
     word-spacing: 110%;
     line-height: 150%;
     border-radius: 7px;
+    transition: 500ms;
 }
 
 #timeline li:nth-child(odd) div{
-    visibility: visible;
-    left: -10vw;
+    visibility: hidden;
+    opacity: 0;
+    left: -20vw;
 }
 
 #timeline li:nth-child(even) div{
-    visibility: visible;
-    left: 60vw;
+    visibility: hidden;
+    opacity: 0;
+    left: 65vw;
 }
 
 #timeline li:nth-child(even).view div{
     visibility: visible;
-    transform: translate(-20vw, 0);
+    opacity: 1;
+    transform: translate(-15vw, 0);
 }
 
 #timeline li:nth-child(odd).view div{
     visibility: visible;
-    transform: translate(7vw, 0);
+    opacity: 1;
+    transform: translate(20vw, 0);
 }
 
 time{
