@@ -31,15 +31,16 @@ h1{
     background-color:lightcoral ;
     word-spacing: 110%;
     line-height: 150%;
+    border-radius: 7px;
 }
 
 #timeline li:nth-child(odd) div{
-    visibility: hidden;
+    visibility: visible;
     left: -10vw;
 }
 
 #timeline li:nth-child(even) div{
-    visibility: hidden;
+    visibility: visible;
     left: 60vw;
 }
 
@@ -51,4 +52,13 @@ h1{
 #timeline li:nth-child(odd).view div{
     visibility: visible;
     transform: translate(7vw, 0);
+}
+
+time{
+    display: block;
+    padding: 10px;
+    color: black;
+    background-color: rgb(233, 233, 93);
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
