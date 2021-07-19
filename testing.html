@@ -18,14 +18,57 @@
 
         <form action="testing.html" method="GET">
 
-            Name: <input type="text" name="Name" placeholder="Ashmit">
-            <br><br>
-            Profession: <input type="text" name="Profession" placeholder="Student / Doctor / Teacher">
-            <br><br>
-            Email: <input type="email" name="Mail ID" placeholder="Someone@example.com">
-            <br><br>
-            Date: <input type="date" name="Date" >
+            <label for="Name">Name: </label>
+            <input type="text" name="Name" placeholder="Name">
 
+            <label for="Profession">Profession: </label>
+            <input type="text" name="Profession" placeholder="Student / Doctor / Teacher">
+
+            <label for="Email">Email: </label>
+            <input type="email" name="Email" placeholder="Someone@example.com">
+
+            <label for="Date">Date: </label>
+            <input type="date" name="Date" >
+
+            <label for="Mobile Number">Mobile Number: </label>
+            <input type="number" name="mobile number">
+
+            <label for="State">State: </label>
+            <select name="Rating">
+                <br>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+            </select>
+            <p>
+                Have you gone traveled to a different country?
+            </p>
+            <br>
+
+            <label for="Yes">Yes: </label>
+            <input type="radio" name="yes/no" value="Yes">
+            <label for="No">No: </label>
+            <input type="radio" name="yes/no" value="No">
+
+            <p>
+                Do you have any of the following symptoms?
+            </p>
+
+            <label for="Fever">Fever: </label>
+            <input type="checkbox" name="Symptom" value="f">
+            <label for="Dry Cough">Dry Cough: </label>
+            <input type="checkbox" name="Symptom" value="d">
+            <label for="Cold">Cold: </label>
+            <input type="checkbox" name="Symptom" value="c">
+            <label for="Breathing Difficulty">Breathing Difficulty: </label>
+            <input type="checkbox" name="Symptom" value="bd">
+            <label for="Chest Pain">Chest Pain: </label>
+            <input type="checkbox" name="Symptom" value="cp">
+            
+            <button type="submit" value="submit">Submit</button>
+        </form>    
 
     </section><!--container-->
 </body>

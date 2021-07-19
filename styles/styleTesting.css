@@ -1,5 +1,6 @@
 html{
     background-color: black;
+    color: white;
 }
 #navbar{
     margin: auto;
@@ -16,4 +17,9 @@ html{
 
 #navbar a:hover{
     border-bottom: 2px solid white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
 }
